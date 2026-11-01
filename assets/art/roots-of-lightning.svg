@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Roots of Lightning — S40in Music</title><desc id="desc">A luminous golden lightning tree with emerald roots growing through a deep cosmic blue storm.</desc>
+<defs>
+ <radialGradient id="bg"><stop stop-color="#183b64"/><stop offset=".62" stop-color="#09172e"/><stop offset="1" stop-color="#030713"/></radialGradient>
+ <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5c4"/><stop offset=".48" stop-color="#f4d18a"/><stop offset="1" stop-color="#d98d35"/></linearGradient>
+ <linearGradient id="root" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77efc3"/><stop offset=".5" stop-color="#1aa987"/><stop offset="1" stop-color="#d8b45d"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<g fill="none" stroke="#6ca8db" opacity=".2"><path d="M0 190 Q280 110 490 220 T1200 150"/><path d="M0 245 Q300 160 560 275 T1200 210"/><path d="M0 300 Q240 220 500 335 T1200 285"/></g>
+<circle cx="610" cy="360" r="230" fill="#69a7ff" opacity=".05"/>
+<g filter="url(#glow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M620 70 510 285 625 270 475 495 620 450 560 600" stroke="url(#bolt)" stroke-width="26"/>
+<path d="M620 450 C590 530 610 575 580 630 C520 700 420 695 345 790 M580 630 C640 700 730 710 805 810 M570 660 C490 740 495 795 470 860 M625 645 C700 680 720 760 740 875 M535 690 C450 675 390 730 300 735 M665 665 C770 635 835 695 900 730" stroke="url(#root)" stroke-width="13"/>
+<path d="M550 575 430 610 355 585 M600 535 720 570 790 530 M540 680 590 760 570 850 M690 690 840 665 910 620" stroke="#65d8b4" stroke-width="7" opacity=".8"/>
+</g>
+<g fill="#fff0bd" opacity=".85"><circle cx="250" cy="230" r="3"/><circle cx="930" cy="210" r="4"/><circle cx="850" cy="350" r="2"/><circle cx="330" cy="450" r="2"/><circle cx="970" cy="500" r="3"/><circle cx="420" cy="150" r="2"/></g>
+<path d="M0 820 Q300 780 600 820 T1200 800 V900 H0Z" fill="#04101b" opacity=".8"/>
+<text x="600" y="835" text-anchor="middle" fill="#f8e8c5" font-family="Georgia,serif" font-size="43" letter-spacing="7">ROOTS OF LIGHTNING</text>
+<text x="600" y="872" text-anchor="middle" fill="#b9d9d0" font-family="Arial,sans-serif" font-size="16" letter-spacing="8">S40in MUSIC</text>
+</svg>
